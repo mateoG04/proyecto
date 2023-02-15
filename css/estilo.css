@@ -1,3 +1,4 @@
+/* Animacion de spiderman  */
 @keyframes spiderman {
   0% {
     transform: translateY(-50px);
@@ -15,32 +16,38 @@
     transform: translateY(-50px);
   }
 }
+/* Centrado de la pagina */
 body {
   height: 1000%;
   overflow-x: hidden;
 }
 
+/* Titulo (H1) */
 .tituloPrincipal {
   text-align: center;
 }
 
+/* Logo de la pagina */
 .portada {
   width: 100px;
   height: 100px;
   margin-bottom: 10px;
 }
 
+/* Barra de navegacion */
 header ul li {
   display: inline-block;
   margin: 15px;
 }
 
+/* Nombre de las secciones */
 a {
   color: rgb(0, 0, 0);
   text-decoration: none;
   font-weight: lighter;
 }
 
+/* Textos de la pagina */
 .textos {
   text-align: center;
   font-size: 20px;
@@ -57,7 +64,7 @@ footer ul li {
 }
 
 .img {
-  width: 300px;
+  width: 400px;
   background: rgb(0, 0, 0);
   background: linear-gradient(90deg, #757F9A, #D7DDE8);
   padding: 2px;
@@ -65,6 +72,7 @@ footer ul li {
   border-radius: 8px;
 }
 
+/* Imagen de spiderman (animacion) */
 .spidy {
   width: 300px;
   animation: spiderman 5s infinite;
